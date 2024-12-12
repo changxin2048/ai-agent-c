@@ -39,7 +39,7 @@ const Sidebar = () => {
           <MobileOutlined />
           {showQRCode && (
             <div className="qrcode-popup">
-              <img src='/image/qrcode.png' alt="QR Code" />
+              <img src='' alt="QR Code" />
             </div>
           )}
         </button>

@@ -340,7 +340,7 @@ const ChatSearch = forwardRef((props, ref) => {
       {messagesList}
       {loading && (
         <div className="thinking">
-          <span>小塔正在处理中</span>
+          <span>马上就好，正在处理中</span>
           <div className="thinking-dots">
             <span></span>
             <span></span>

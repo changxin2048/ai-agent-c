@@ -15,7 +15,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="logo">
-        <img src="https://img.mp.sohu.com/upload/20170801/7491032cc2bb4d4897f4f58c4119847d_th.png" alt="Logo" />
+        <img src="https://img.zcool.cn/community/01s7laxpm7c3m4a4ppinxr3231.jpg?imageMogr2/auto-orient/thumbnail/1280x%3e/sharpen/0.5/quality/100" alt="Logo" />
       </div>
       
       <nav className="nav-items">

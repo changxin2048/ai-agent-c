@@ -70,7 +70,7 @@
   padding: -1px;
   box-sizing: border-box;
   margin-top: -1px; 
-  opacity: 0.7;
+  /* opacity: 0.7; */
 }
 
 .message-content {

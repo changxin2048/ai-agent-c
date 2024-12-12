@@ -219,7 +219,7 @@ const ChatSearch = forwardRef((props, ref) => {
     },
     {
       pattern: /^(你好|你是|你是谁|介绍一下自己)/,
-      response: '您好，我叫常鑫,欢迎来到我的主页！'
+      response: 'Hi~ o(*￣▽￣*)ブ，我是changxin，欢迎来到我的主页！'
     },
     {
       pattern: /121\.41\.117\.113/,

@@ -15,7 +15,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="logo">
-        <img src="https://img.zcool.cn/community/01s7laxpm7c3m4a4ppinxr3231.jpg?imageMogr2/auto-orient/thumbnail/1280x%3e/sharpen/0.5/quality/100" alt="Logo" />
+        <img src="http://gips2.baidu.com/it/u=2161708353,627709820&fm=3028&app=3028&f=JPEG&fmt=auto?w=2560&h=1920" alt="Logo" />
       </div>
       
       <nav className="nav-items">

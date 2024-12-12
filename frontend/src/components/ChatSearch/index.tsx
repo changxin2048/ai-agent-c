@@ -20,7 +20,7 @@ const WelcomeContent = React.memo(() => (
       style={{ width: 230, marginBottom: 16 }}
     />
     <div className="welcome-content" >
-      <TypeWriter text="Hi，我是changxin,这里是我的数字花园，欢迎你的到来~" />
+      <TypeWriter text="Hi，我是changxin，这里是我的数字花园，欢迎你的到来~" />
     </div>
   </div>
 ));
@@ -67,7 +67,7 @@ const MessageItem = React.memo(({ item }: { item: any }) => {
         ) : (
           <>
             <img 
-              src="https://img2.baidu.com/it/u=3029837478,1144772205&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=500" 
+              src="http://gips2.baidu.com/it/u=2161708353,627709820&fm=3028&app=3028&f=JPEG&fmt=auto?w=2560&h=1920" 
               alt="AI" 
               className="ai-avatar"
             />

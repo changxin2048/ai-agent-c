@@ -15,12 +15,12 @@ const WelcomeContent = React.memo(() => (
     color: '#999'
   }}>
     <img 
-      src="https://th.bing.com/th/id/R.8bd5dc69f81e5096edaa49dd10ea21ad?rik=Ht6ihtOL1NqDEA&riu=http%3a%2f%2fwww.gdhuaxun.net%2fapp_upload%2fimage%2f20180319%2f20180319142410_0779.png&ehk=wSiudhuc6C5wl%2fBEBPsI27%2bEfFvc1qJi4Y8JHDZbbMQ%3d&risl=&pid=ImgRaw&r=0" 
+      src="https://img1.baidu.com/it/u=251522009,1665113150&fm=253&fmt=auto&app=138&f=JPEG?w=512&h=216" 
       alt="empty" 
       style={{ width: 230, marginBottom: 16 }}
     />
     <div className="welcome-content" >
-      <TypeWriter text="Hi，我是质量组智能助手，我可以回答问题，也可以执行指令，快向我提问吧~" />
+      <TypeWriter text="Hi，我是changxin,这里是我的数字花园，欢迎你的到来~" />
     </div>
   </div>
 ));
@@ -67,7 +67,7 @@ const MessageItem = React.memo(({ item }: { item: any }) => {
         ) : (
           <>
             <img 
-              src="https://img.mp.sohu.com/upload/20170801/7491032cc2bb4d4897f4f58c4119847d_th.png" 
+              src="https://img2.baidu.com/it/u=3029837478,1144772205&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=500" 
               alt="AI" 
               className="ai-avatar"
             />
@@ -219,7 +219,7 @@ const ChatSearch = forwardRef((props, ref) => {
     },
     {
       pattern: /^(你好|你是|你是谁|介绍一下自己)/,
-      response: '您好，我是中国铁塔智能助手很高兴为您服务！'
+      response: '您好，我叫常鑫,欢迎来到我的主页！'
     },
     {
       pattern: /121\.41\.117\.113/,

@@ -20,7 +20,9 @@ const WelcomeContent = React.memo(() => (
       style={{ width: 230, marginBottom: 16 }}
     />
     <div className="welcome-content" >
-      <TypeWriter text="Hi，我是changxin，这里是我的数字花园，欢迎你的到来~" />
+      {/* <TypeWriter text="Hi，我是changxin，这里是我的数字花园，欢迎你的到来~" /> */}
+      <TypeWriter text="Hi，我是您的智能助手，快向我提问吧~" />
+    
     </div>
   </div>
 ));
@@ -208,19 +210,11 @@ const ChatSearch = forwardRef((props, ref) => {
         
         return undefined;
       }
-    },
-    {
-      pattern: /^(工单|工单号|查工单)\s*[:：]?\s*(\d+)$/,
-      response: `工单正在处理中，请耐心等待。`
-    },
-    {
-      pattern: /^(投诉|举报|建议)/,
-      response: '您的意见对我们很重要，请拨打10096反馈，我们会认真处理。'
-    },
-    {
-      pattern: /^(你好|你是|你是谁|介绍一下自己)/,
-      response: 'Hi~ ，我是changxin，欢迎来到我的主页！'
-    },
+    },   
+    // {
+    //   pattern: /^(你好|你是|你是谁|介绍一下自己)/,
+    //   response: 'Hi~ ，我是changxin，欢迎来到我的主页！'
+    // },
     {
       pattern: /121\.41\.117\.113/,
       response: (match) => {
